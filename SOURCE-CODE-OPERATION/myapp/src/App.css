@@ -1,0 +1,57 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background: #031321 ;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 6vmin);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  color: rgb(101, 209, 212);
+  text-indent: 50px;
+}
+
+.inline-div{
+  background: #031321;
+  display:flex;
+  min-height: 80vh;
+  align-items: center;
+  float: left;
+  position: absolute;
+  right: 636px;
+  justify-content: space-around
+}
+
+.inline-div1{
+  background: #031321;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  top: 100px;
+  padding-left: 667px;
+  justify-content: space-around;
+}
+
+.inline-txtarea{
+  resize: none;
+  position: relative;
+  border: 2px solid black;
+  height: 400px;
+  background-color: white;
+}
+
+.red{
+  border: 2px solid black;
+  height: 400px;
+  background-color: rgb(248, 9, 49)
+}
+
+.green{
+  border: 2px solid black;
+  height: 400px;
+  background-color:rgb(52, 255, 52);
+}
+
